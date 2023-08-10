@@ -5,7 +5,11 @@ import review from "./assets/images/review.png";
 function App() {
   return (
     <div className="App">
-      <div>
+      <div
+        style={{
+          display: "none",
+        }}
+      >
         <div>
           <img src={entangle} alt="entangle" />
         </div>
@@ -13,7 +17,7 @@ function App() {
           <img src={hello} alt="hello" />
         </div>
         <div>
-          <img src={review} alt="hello" />
+          <img src={review} alt="review" />
         </div>
       </div>
       This is an Empty Project that is used to host different static images or
