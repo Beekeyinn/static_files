@@ -3,7 +3,7 @@ import entangle from "./assets/images/entangle.png";
 import hello from "./assets/images/hello_ai_blog.png";
 import review from "./assets/images/review.png";
 import logo from  "./assets/images/logo.jpeg";
-import lock from  "./assets/images/lock.jpeg";
+import lock from  "./assets/images/lock.png";
 function App() {
   return (
     <div className="App">
